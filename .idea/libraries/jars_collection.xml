@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jars_collection">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../ORACLE/db_home/jdbc/lib/ojdbc11.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.4.0/mysql-connector-j-9.4.0/mysql-connector-j-9.4.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/mongodb-driver-sync-4.11.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/mongodb-driver-core-4.11.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/bson-4.11.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/postgresql-42.7.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
