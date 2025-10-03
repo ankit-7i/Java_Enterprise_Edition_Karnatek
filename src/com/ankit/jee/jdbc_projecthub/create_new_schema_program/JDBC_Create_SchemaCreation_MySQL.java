@@ -22,8 +22,8 @@ public class JDBC_Create_SchemaCreation_MySQL {
         System.out.println("Statement is created");
 
         // 4. Executing queries
-        stmt.execute("CREATE USER 'jdbcdb'@'localhost' IDENTIFIED BY '@ankit07'");
-        stmt.execute("GRANT ALL PRIVILEGES ON *.* TO 'jdbcdb'@'localhost'");
+        stmt.execute("CREATE USER 'jdbcdb1'@'localhost' IDENTIFIED BY '@ankit07'");
+        stmt.execute("GRANT ALL PRIVILEGES ON *.* TO 'jdbcdb1'@'localhost'");
         System.out.println("User is created and permissions are granted");
 
         // 5. Closing connections
@@ -31,4 +31,3 @@ public class JDBC_Create_SchemaCreation_MySQL {
         con.close();
     }
 }
-
