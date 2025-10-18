@@ -18,8 +18,8 @@ public class SelectRows_Execution_Using_Resultsetmetadata_In_Oracle2
 
         //2. Establishing connection
         Connection con = DriverManager.getConnection(
-                "jdbc:oracle:thin:@localhost:1521:XE",
-                "hknit11am3", "hari");
+                "jdbc:oracle:thin:@localhost:1521:orcl",
+                "jdbcdb", "ankit07");
 
         //3. Creating Statement object
         Statement stmt = con.createStatement();
