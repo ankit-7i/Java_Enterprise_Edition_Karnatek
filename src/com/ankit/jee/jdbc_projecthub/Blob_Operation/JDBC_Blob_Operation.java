@@ -18,7 +18,7 @@ public class JDBC_Blob_Operation {
     String username = "jdbcdb";
     String pwd = "ankit07";
     String sqlQuery1 = "INSERT INTO mydata1 VALUES (?, ?)";
-    // String sqlQuery2 = "SELECT * FROM mydata1 WHERE id = ?";
+     String sqlQuery2 = "SELECT * FROM mydata1 WHERE id = ?";
 
     Connection connect() {
         Connection connection = null;
@@ -66,7 +66,7 @@ public class JDBC_Blob_Operation {
     }
 
 
-    /*
+
     void meth2() {
         System.out.println("Retrieving image from the database");
         Connection con = null;
@@ -104,11 +104,11 @@ public class JDBC_Blob_Operation {
         }
 
     }
-    */
+
 
     public static void main(String[] args) {
         JDBC_Blob_Operation obj = new JDBC_Blob_Operation();
-        obj.meth1();
-        // obj.meth2();
+       // obj.meth1();
+        obj.meth2();
     }
 }
