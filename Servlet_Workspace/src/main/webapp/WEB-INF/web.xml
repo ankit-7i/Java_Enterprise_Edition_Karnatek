@@ -16,4 +16,14 @@
         <servlet-name>helloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Date_and_TimeServlet</servlet-name>
+        <servlet-class>com.jee.servlet.basic.Date_and_TimeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Date_and_TimeServlet</servlet-name>
+        <url-pattern>/datetime</url-pattern>
+    </servlet-mapping>
 </web-app>
