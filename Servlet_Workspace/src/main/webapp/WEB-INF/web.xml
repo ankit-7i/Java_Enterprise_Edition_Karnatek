@@ -36,4 +36,13 @@
         <servlet-name>BeautifulCalculator</servlet-name>
         <url-pattern>/calc</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>StudentInfoServlet</servlet-name>
+        <servlet-class>com.jee.servlet.StudentInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StudentInfoServlet</servlet-name>
+        <url-pattern>/StudentInfoServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
