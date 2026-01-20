@@ -11,7 +11,7 @@ public class JDBC_Connection_MySQL_01 {
         Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/j2eedb",
                 "root",
-                "@nkit07"
+                "Ankit07%"
         );
 
         System.out.println("Connection Established...");
